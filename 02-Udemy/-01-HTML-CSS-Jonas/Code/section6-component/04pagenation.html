@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Accordion Component</title>
+
+    <style>
+      /*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+
+      /* Main color: #087f5b 
+                #343a40*/
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      /* ------------------------ */
+      /* GENERAL STYLES */
+      /* ------------------------ */
+      body {
+        font-family: "Inter", sans-serif;
+        color: #343a40;
+        line-height: 1;
+
+        display: flex;
+
+        justify-content: center;
+      }
+
+      .challenge1 {
+        display: flex;
+        margin: 200px auto;
+        align-items: center;
+        gap: 12px;
+      }
+
+      .btn {
+        border: 1px solid #087f5b;
+        height: 48px;
+        width: 48px;
+        border-radius: 50%;
+        background: none;
+        cursor: pointer;
+      }
+
+      .three {
+        background-color: #087f5b;
+        color: #fff;
+      }
+
+      .btn:hover {
+        background-color: #087f5b;
+      }
+      .btn:hover .btn-icon {
+        stroke: #fff;
+      }
+      .btn-icon {
+        stroke: #087f5b;
+        height: 24px;
+        width: 24px;
+      }
+      .page-link:link,
+      .page-link:visited {
+        font-size: 18px;
+        color: #343a40;
+        text-decoration: none;
+
+        border-radius: 50%;
+        width: 36px;
+        height: 36px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .page-link:hover,
+      .page-link:active,
+      .page-link.three {
+        background-color: #087f5b;
+        color: #fff;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="challenge1">
+      <button class="btn">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="btn-icon"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18"
+          />
+        </svg>
+      </button>
+      <a href="fadfad" class="page-link">1</a>
+      <a href="fadfad" class="page-link">2</a>
+      <a href="fadfad" class="page-link three">3</a>
+      <a href="fadfad" class="page-link">4</a>
+      <a href="fadfad" class="page-link">5</a>
+      <a href="fadfad" class="page-link">6</a>
+      <a href="fadfad" class="page-link">..</a>
+      <a href="fadfad" class="page-link">32</a>
+
+      <button class="btn">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="btn-icon"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"
+          />
+        </svg>
+      </button>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,345 @@
+* {
+  /* border-top: 10px solid #1098ad; */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Main Page */
+body {
+  color: #444;
+  font-family: sans-serif;
+  border-top: 10px solid #1098ad;
+  position: relative;
+}
+
+.container {
+  width: 1200px;
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin: 0 auto;
+}
+.main-header {
+  padding: 20px 40px;
+  background-color: #f7f7f7;
+  height: 80px;
+}
+nav {
+  font-size: 16px;
+}
+
+article {
+}
+
+.post-header {
+  margin-bottom: 40px;
+}
+
+aside {
+  background-color: #f7f7f7;
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
+  padding: 50px 40px;
+}
+
+/* Smaller Elements */
+h1,
+h2,
+h3 {
+  color: #1098ad;
+}
+h1 {
+  font-size: 25px;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+h2 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+h4 {
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+p {
+  font-size: 22px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+ol,
+ul {
+  margin-left: 50px;
+}
+
+li {
+  font-size: 22px;
+  margin-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+li:last-child {
+  margin-bottom: 0;
+}
+/* footer p {
+  font-size: 16px;
+} */
+
+/* article header p {
+  font-style: italic;
+} */
+
+#author {
+  font-style: italic;
+  font-size: 18px;
+}
+
+#copyright {
+  font-size: 16px;
+}
+
+.related-author {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* aside ul {
+  list-style-type: none;
+} */
+
+.related {
+  list-style: none;
+  margin-left: 0px;
+}
+
+li:first-child {
+  font-weight: bold;
+}
+
+li:last-child {
+  font-style: italic;
+}
+
+li:nth-child(2) {
+  color: green;
+}
+
+/* article p:last-child {
+  color: aqua;
+} */
+
+/* Styling Hyperlinks */
+
+a:link {
+  color: #1098ad;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #1098ad;
+}
+
+a:hover {
+  color: orangered;
+  /* text-decoration: underline wavy orangered; */
+  font-weight: bold;
+}
+
+a:active {
+  background-color: orangered;
+  color: white;
+  font-style: italic;
+}
+
+.post-img {
+  width: 100%;
+  height: auto;
+}
+
+/* Resolving conflicts 
+#copyright {
+  color: red;
+}
+
+.coloright {
+  color: blue;
+}
+
+.text {
+  color: yellow;
+}
+
+footer p {
+}
+*/
+
+nav {
+  font-size: 20px;
+}
+
+nav a:link {
+  margin-right: 10px;
+  display: inline-block;
+}
+
+nav a:link:last-child {
+  margin-right: 0;
+}
+
+button {
+  font-size: 22px;
+  padding: 20px;
+  cursor: pointer;
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+}
+
+h1::first-letter {
+  font-style: normal;
+  margin-right: 5px;
+}
+
+h2 {
+  position: relative;
+}
+
+h2::after {
+  content: 'TOP';
+  font-weight: bold;
+  background-color: #ffe70e;
+  font-size: 16px;
+  display: inline-block;
+  position: absolute;
+  padding: 5px 10px;
+  top: -15px;
+  right: -25px;
+  color: #000;
+}
+
+/* Floats 
+.author-img {
+  float: left;
+  margin-bottom: 20px;
+}
+
+.author {
+  float: left;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+h1 {
+  float: left;
+}
+
+nav {
+  float: right;
+}
+
+article {
+  width: 825px;
+  float: left;
+}
+
+aside {
+  width: 300px;
+  float: right;
+}
+
+footer {
+  clear: both;
+}
+
+*/
+
+/* Flex Box */
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.author-box {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.author-box p {
+  margin-bottom: 0;
+  margin-left: 15px;
+}
+
+.related-post {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.related-author {
+  margin-bottom: 0;
+  font-weight: normal;
+  font-size: 14px;
+  font-style: italic;
+}
+
+.related-link:link {
+  font-size: 17px;
+  font-weight: bold;
+  font-style: normal;
+  margin-bottom: 5px;
+  display: block;
+}
+
+/* CSS Flexbox */
+/* .main-page {
+  display: flex;
+  gap: 75px;
+  margin-bottom: 60px;
+  align-items: flex-start;
+}
+
+article {
+  flex: 1 0 825px;
+  margin-bottom: 0;
+}
+aside {
+  flex: 1 0;
+} */
+
+/* CSS GRID */
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  column-gap: 70px;
+  align-items: flex-start;
+  row-gap: 30px;
+}
+
+.main-header {
+  /* grid-column: 1 / span 2; */
+  grid-column: 1/-1;
+}
+
+article {
+}
+
+aside {
+}
+
+footer {
+  /* background-color: #1098ad; */
+  grid-column: 1/-1;
+}
