@@ -12,9 +12,9 @@
 
   <br/>
 
-- [Section 3 Project Live Demo]()
-- [Section 4 Project Live Demo]()
-- [Section 5 Project Live Demo]()
+- [Section 3 Project Live Demo](https://64ac3fb17488541710b4d6ad--cheerful-gumdrop-d92963.netlify.app/)
+- [Section 4 Project Live Demo](https://64ac437a9d565a185fb958a7--steady-lily-c57c88.netlify.app/)
+- [Section 5 Project Live Demo](https://64ac45c84f6b3a190f88b450--cerulean-alfajores-6d5de3.netlify.app/)
 
 ### goals app (S6-S7)
 
@@ -22,7 +22,7 @@
 - [Section 7 Code](./Projects/02-goals-app/S07-project/)
   <br/>
 
-- [Section 6 Project Live Demo]()
+- [Section 6 Project Live Demo](https://64ac482b7488541d74b4d696--friendly-platypus-d7211f.netlify.app/)
 - [Section 7 Project Live Demo]()
 
 ### Section 8-9 Project
