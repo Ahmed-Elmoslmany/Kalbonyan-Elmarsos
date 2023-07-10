@@ -12,11 +12,11 @@
 ## Projects
 ### Omnifood
 - [Project-code](./Projects/Omnifood) <br>
-- [Live Demo](https://omnifood.dev/)
+- [Live Demo]([https://omnifood.dev/](https://omnifood-navy-eight.vercel.app/))
 ---
 ## Code
 - [Code](Code)
 ---
 [Course-Link](https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3)<br>
 
-![Certificate](https://via.placeholder.com/468x300?text=Certificate+Here)
+![Certificate]([https://via.placeholder.com/468x300?text=Certificate+Here](https://www.udemy.com/certificate/UC-9ddfa506-08a6-4072-b7be-e1701bd45d9a/)https://www.udemy.com/certificate/UC-9ddfa506-08a6-4072-b7be-e1701bd45d9a/)
