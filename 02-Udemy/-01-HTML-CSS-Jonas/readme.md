@@ -12,7 +12,7 @@
 ## Projects
 ### Omnifood
 - [Project-code](./Projects/Omnifood) <br>
-- [Live Demo]([https://omnifood.dev/](https://omnifood-navy-eight.vercel.app/))
+- [Live Demo](https://omnifood-navy-eight.vercel.app/)
 ---
 ## Code
 - [Code](Code)
