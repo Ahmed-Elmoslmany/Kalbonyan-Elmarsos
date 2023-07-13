@@ -33,32 +33,32 @@
 ### Login-app (S10)
 
 - [Project-code](./Projects/04-Login-app-s10/)
-- [Live Demo]()
+- [Live Demo](https://64afdbe519d9a209ca413aca--illustrious-gumdrop-8130f5.netlify.app/)
 
 ### Order-food App (S11)
 
 - [Project-code](./Projects/05-order-food-app/S11-project/)
-- [Live Demo]()
+- [Live Demo](https://64afdf512d020c0f2046fba0--bright-fudge-fda47e.netlify.app/)
 
 ### Section 12 Project
 
 - [Project-code](./Projects/06-S12-project)
-- [Live Demo]()
+- [Live Demo](https://64afe69a5761270f801ecc7f--sprightly-creponne-71931b.netlify.app/)
 
 ### Section 13 Project
 
 - [Project-code](./Projects/07-S13-project)
-- [Live Demo]()
+- [Live Demo](https://64afe679a18c940fcdb660ab--boisterous-basbousa-7959f4.netlify.app/)
 
 ### movies app(S14)
 
 - [Project-code](./Projects/08-movies-app)
-- [Live Demo]()
+- [Live Demo](https://64afe8f119d9a2136e413759--idyllic-jelly-01d668.netlify.app/)
 
 ### Tasks app with firebase(S15)
 
 - [Project-code](./Projects/09-task-app-firbase/)
-- [Live Demo]()
+- [Live Demo](https://64afe937a7ad8a120c09c494--effervescent-kangaroo-476e32.netlify.app/)
 
 ### Form-app(S16)
 
