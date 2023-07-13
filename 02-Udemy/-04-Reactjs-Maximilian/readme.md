@@ -23,12 +23,12 @@
   <br/>
 
 - [Section 6 Project Live Demo](https://64ac482b7488541d74b4d696--friendly-platypus-d7211f.netlify.app/)
-- [Section 7 Project Live Demo]()
+- [Section 7 Project Live Demo](https://64afc8c790cb4b42339a9256--verdant-pavlova-aafbc8.netlify.app/)
 
 ### Section 8-9 Project
 
 - [Project-code](./Projects/03-section-8-9-project)
-- [Live Demo]()
+- [Live Demo](https://64afc9b06e26ce3fbdb860f2--animated-pony-12b7dc.netlify.app/)
 
 ### Login-app (S10)
 
