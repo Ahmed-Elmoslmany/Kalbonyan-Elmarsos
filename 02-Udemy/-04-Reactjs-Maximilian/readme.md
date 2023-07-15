@@ -68,12 +68,12 @@
 ### Order-food App (S17)
 
 - [Project Code](./Projects/05-order-food-app/S17-project/)
-- [Final Project Live Live Demo]()
+- [Final Project Live Live Demo](https://64b26be4e4fdea6b3b88f064--golden-mandazi-3a2032.netlify.app/)
 
 ### Redux Counter(S18)
 
 - [Project-code](./Projects/11-redux-counter)
-- [Live Demo]()
+- [Live Demo](https://64b26fa7b4979e71c7766125--graceful-biscochitos-d43811.netlify.app/)
 
 ### Redux Cart(S19)
 
