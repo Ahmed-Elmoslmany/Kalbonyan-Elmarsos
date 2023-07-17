@@ -85,7 +85,7 @@
 `React + Node`
 
 - [Project-code](./Projects/13-events-app)
-- [Live Demo]()
+- [Live Demo](https://sec-21.onrender.com/)
 
 ### Blog(S22)
 
