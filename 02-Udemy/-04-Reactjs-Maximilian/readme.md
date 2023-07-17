@@ -90,7 +90,7 @@
 ### Blog(S22)
 
 - [Project-code](./Projects/14-Blog)
-- [Live Demo]()
+- [Live Demo](https://64b522c85ef3dc0c0f0a53bb--preeminent-fairy-5d0c85.netlify.app/)
 
 ### Meetups app(S23)
 
@@ -100,29 +100,29 @@
 ### Animation-app (S24)
 
 - [Project-code](./Projects/16-animation-app)
-- [Live Demo]()
+- [Live Demo](https://64b5620c8e86b31cd6bd9508--whimsical-cajeta-547ce9.netlify.app/)
 
 ### Products-app(S25)
 
 - [Project-code](./Projects/17-Products-app)
-- [Live Demo]()
+- [Live Demo](https://64b564253200231ce40f142f--admirable-buttercream-757e58.netlify.app/)
 
 ### todo-app-TS(S27)
 
 - [Project-code](./Projects/18-todo-app-TS)
-- [Live Demo]()
+- [Live Demo](https://64b5666a29134e242925a3fe--fluffy-gecko-ee1ee2.netlify.app/)
 
 ### ingredients-app(S28)
 
 - [Project-code](./Projects/19-ingredients-app/)
-- [Live Demo]()
+- [Live Demo](https://64b567a697e6de24667092a0--sprightly-biscotti-42def9.netlify.app/)
 
 ### React Poster(s29)
 
 `React + Node`
 
 - [Project-code](./Projects/20-react-poster/)
-- [Live Demo]()
+- [Live Demo](https://poster-tfrt.onrender.com/)
 
 ---
 
