@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.project-btn {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.repo-btn {
+  background-color: blueviolet;
+  border: 1px solid white;
+  padding: 1rem 1.5rem;
+  color: white;
+  font-weight: 700;
+  border-radius: 7px;
+  transition: all .3s;
+
+}
+
+.repo-btn:hover {
+  padding: 1.5rem 2rem;
+  
+  background-color: white;
+  color: blueviolet;
+  border-top-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+
+.demo-btn {
+  background-color: indigo;
+  border: 1px solid white;
+  padding: 1rem 1.5rem;
+  color: white;
+  font-weight: 700;
+  border-radius: 7px;
+  transition: all .3s;
+
+}
+
+.demo-btn:hover {
+  padding: 1.5rem 2rem;
+  
+  background-color: white;
+  color: indigo;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+}
+
+.white{
+  color: white;
+}
