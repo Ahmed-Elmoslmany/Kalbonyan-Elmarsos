@@ -1,0 +1,67 @@
+.testiCard{
+  width: 60%;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  margin-left: 15rem;
+  margin-top: 2rem;
+  position: relative;
+}
+
+.testiPara{
+  max-width: 61%;
+  margin-top: 4rem;
+}
+
+.testiPara2{
+  text-align: center;
+}
+.starIn{
+  color: #F8D7A4;
+  width: 2.2rem;
+  height: 2.2rem;
+}
+.stars{
+  display: flex;
+  margin-top: 1rem;
+}
+
+.testmonialdetail{
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.testmonialName{
+  color: #12273D;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.testmonialAdd{
+  color: #979797;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.testmonialdetail{
+  margin-bottom: 3rem;
+}
+
+.testimonaislCar{
+  position: absolute;
+  right: -15%;
+
+  z-index: 10;
+}
+@media screen and (max-width: 420px) {
+  .testiCard{
+    width: 90%;
+    margin-left: 1.5rem;
+  }
+}

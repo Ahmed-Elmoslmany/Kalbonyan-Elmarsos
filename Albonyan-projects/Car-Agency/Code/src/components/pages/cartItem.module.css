@@ -1,0 +1,46 @@
+.cartItem{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0.2rem 0.5rem;
+  background-color: #fff;
+  margin: 0.5rem 2rem;
+}
+
+.cartItemText{
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 1rem;
+  gap: .2rem;
+}
+.cartItemText h3{
+  color: #741906;
+
+}
+
+.cartItemText p{
+  color: #2C2A2A;
+
+}
+
+.cartItemImg{
+  width: 50%;
+  height: 50%;
+}
+
+.btns{
+  margin-bottom: 1rem;
+}
+
+.deleteBtn{
+  color: black;
+}
+
+.trashIc{
+  width: 1.5rem;
+  height: 1.5rem;
+  text-align: center;
+}
+

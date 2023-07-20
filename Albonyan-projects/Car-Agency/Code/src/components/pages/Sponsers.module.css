@@ -1,0 +1,18 @@
+
+.gridSponsers{
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  margin-top: 2.8rem;
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: center;
+}
+.sponserImg{
+  padding: 0.5rem 1rem;
+}
+
+@media screen and (max-width: 420px) {
+  .gridSponsers{
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

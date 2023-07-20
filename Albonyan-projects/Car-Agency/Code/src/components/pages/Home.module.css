@@ -1,0 +1,87 @@
+.home{
+  background: url('../../imgs/Background.png');
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position: center center; 
+  height: 100vh;
+  color: white;
+  font-weight: 400;
+}
+
+.homeText{
+  font-size: 2.2rem;
+  margin-top: 7rem;
+}
+
+.homePara{
+  font-size: 2.2rem;
+}
+
+.rightText{
+  display: flex;
+  flex-direction: column;
+  padding: 0 4.8rem;
+  align-items: flex-end;
+  text-align: right;
+  
+
+}
+
+.rightText h1{
+  font-size: 3.2rem;
+  max-width: 80vh;
+}
+
+.rightText p{
+  font-size: 1.8rem;
+  max-width: 50vh;
+}
+
+.dicBtn{
+  padding: .8rem 1.8rem;
+  font-size: 1.2rem;
+  background-color: rgba(0, 0, 0, 0.059);
+  color: white;
+  border-radius: 9px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-right: 5px; 
+}
+
+.dicBtn:hover{
+  background-color: rgba(0, 0, 0, 0.559);
+  border-color: rgba(0, 0, 0, 0);
+}
+
+@media screen and (max-width: 420px) {
+
+  .homeText{
+    text-align: left;
+    font-size: 1px;
+  }
+
+  .rightText{
+    align-items: flex-start;
+    text-align: left;
+    padding: 0rem 1.8rem;
+  }
+
+  .homePara{
+    background-color: rgba(0, 0, 0, 0.652);
+    margin-top: 2rem;
+    padding: 1rem 1.2rem;
+    text-align: center;
+  }
+
+  .dicBtn{
+    margin-top: 55%;
+    text-align: center;
+    margin-left: 30%;
+   border: 2.2px solid #fff;
+   font-size: 1.8rem;
+   font-weight: 600;
+   padding: .8rem 2rem;
+  }
+}

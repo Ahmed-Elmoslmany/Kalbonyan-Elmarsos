@@ -1,0 +1,31 @@
+.testimonialsSection{
+  background-color: #12273D;
+  padding-bottom: 5rem;
+}
+.testimonialsBig{
+  color: #97979768;
+  font-size: 6.4rem;
+  font-weight: 800;
+  text-align: center;
+}
+.testimonialsSmall{
+  color: white;
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+  margin-top: -4rem;
+}
+
+.dots li button::before{
+  color: white !important;
+  font-size: 0.8rem !important;
+  padding-top: 2rem;
+}
+
+
+@media screen and (max-width: 420px) {
+.testimonialsBig{
+  font-size: 4rem;
+}
+
+}

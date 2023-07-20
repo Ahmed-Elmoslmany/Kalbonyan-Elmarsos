@@ -1,0 +1,320 @@
+header{
+  color: white;
+  font-weight: 400;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 10;
+  
+}
+
+
+
+.headerScrollColor{
+  background-color: #FAFAFA;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  align-items: center;
+  position: relative;
+  padding: 1.2rem 4.8rem;
+}
+
+.nav.scrolled{
+  background-color: black;
+}
+.yourcar{
+  font-size: 2rem;
+}
+h1 span{
+  font-weight: 700;
+ 
+  
+}
+
+
+.yourcarScrolled{
+  font-size: 2rem;
+  color: #12273D;
+}
+
+.navEl{
+  display: flex;
+  gap: 2rem;
+  list-style-type: none;
+  position: relative;
+  margin-right: 7rem;
+ 
+}
+
+.link{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.link span{
+ padding: 0rem 1rem;
+ font-size: 1.2rem;
+ font-weight: 700;
+ text-align: center;
+
+}
+
+.link:hover{
+background-color: #741906;
+color: white;
+border-radius: 5px;
+}
+
+.linkScrolled span{
+  padding: 0rem 1rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-align: center;
+  color: #12273D;
+}
+
+.hamIcon,
+.hamIconScrolled{
+  display: none;
+}
+
+.cartIcon,
+.hamIcon{
+  width: 1.8rem;
+  height: 1.8rem;
+  align-self: center;
+  justify-self: center;
+  position: absolute;
+  right: 10%;
+  top: 30%;
+
+
+  
+}
+
+.cartIconScrolled,
+.hamIconScrolled{
+  width: 1.8rem;
+  height: 1.8rem;
+  align-self: center;
+  justify-self: center;
+  color: #12273D;
+  margin-top: -1rem;
+  position: absolute;
+  right: 10%;
+  top: 50%;
+}
+
+
+.cart{
+
+align-self: center;
+justify-self: center;
+}
+
+.cartMenu{
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  height: 100vh;
+  background-color: #12273df3;
+  width: 25rem;
+  top: 5rem;
+  right: 0;
+  scroll-behavior: smooth;
+}
+
+.deleteAll{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  background-color:  #741906 ;
+  padding: .5rem 1.5rem;
+  color: white;
+  font-size: 1.2rem;
+  right: 30%;
+  position: absolute;
+  margin-top: 130%;
+  border-radius: 5px;
+}
+
+.hamburger{
+  display: none;
+}
+
+/* ***********
+    Nav Responsive
+    **********
+*/
+
+@media screen and (max-width: 768px) {
+  .navEl{
+    display: none;
+    transform: translateX(100%);
+    transition: all 0.3s ease-in-out;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    flex-direction: column;
+    width: 60%;
+    height: calc(100vh - 77px);
+    background-color: #12273de4;
+    border-top: 1px solid black;  
+  }
+  .expanded{
+    display: block;
+    transform: translateX(0%);
+    transition: all 0.3s ease-in-out;
+    position: absolute;
+    top: 60px;
+    right: 0;
+
+    flex-direction: column;
+    width: 60%;
+    height: calc(100vh - 77px);
+    background-color: #12273de4;
+    border-top: 1px solid black;  
+
+  }
+
+  .navEl li:first-child {
+    margin-top: 4rem;
+  }
+
+  .link span,
+  .linkScrolled span{
+    display: block;
+    margin: 1rem;
+    font-size: 1.8rem;
+    font-weight: 800;
+    text-align: center;
+    color: #fff;
+   
+   }
+
+  .cartIcon{
+    right: 10%;
+    top: 30%;
+    position: absolute;
+  }
+
+  .hamIcon{
+    display: block;
+    right: 5%;
+    top: 30%;
+    position: absolute;
+  }
+
+  .cartIconScrolled{
+    right: 10%;
+    top: 44%;
+    position: absolute;
+
+  }
+
+  
+  .hamIconScrolled{
+    display: block;
+    position: absolute;
+    right: 5%;
+    top: 44%;
+  }
+
+  .hamburger{
+    display: block;    
+    color: #fff;
+  }
+}
+
+.cartItemNumbers{
+  right: 10.3%;
+  top: 10%;
+  position: absolute;
+  font-size: 1.4rem;
+  color: #fff;
+  
+}
+.cartItemNumbersScrolled{
+  right: 10.3%;
+  top: 10%;
+  position: absolute;
+  font-size: 1.4rem;
+  color: #12273D;
+}
+
+.cartOpen{
+  color: #741906;
+}
+
+.cartIsEmpty{
+  text-align: center;
+  margin-top: 50%;
+}
+@media screen and (max-width: 420px) {
+
+  html{
+    font-size: 70%;
+  }
+  .cartIcon{
+    right: 15%;
+    top: 30%;
+    position: absolute;
+  }
+
+  
+
+  .cartIconScrolled{
+    right: 15%;
+    top: 44%;
+    position: absolute;
+
+  }
+
+  
+  .hamIconScrolled{
+    display: block;
+    position: absolute;
+    right: 5%;
+    top: 44%;
+  }
+  
+  .cartItemNumbers{
+    right: 16%;
+    top: 6%;
+    position: absolute;
+    font-size: 1.4rem;
+    color: #fff;
+    
+  }
+  .cartItemNumbersScrolled{
+    right: 16%;
+    top: 6%;
+    position: absolute;
+    font-size: 1.4rem;
+    color: #12273D;
+  }
+  
+}
+
+
+
+
+
+
+
+
+/* 
+
+
+
+
+
+
+*/

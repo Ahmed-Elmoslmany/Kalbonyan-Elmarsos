@@ -1,0 +1,76 @@
+.serviceWrapper{
+  background-color: #dfdfdf;
+  
+}
+.serviceSection{
+  background: url('../../imgs/serviceBK.png');
+  background-repeat:no-repeat;
+  height: 100vh;
+  background-size: 40rem;
+  background-position: center center;
+  width: 100%;
+  
+}
+.serviceCarBK{
+  width: 100%;
+  height: 100vh;
+  background-color: #dfdfdfaa;
+
+}
+
+.serviceDiv{
+  text-align: center;
+}
+.servicePara{
+  font-size: 6.4rem;
+  font-weight: 800;
+  color: #fffefe;
+}
+.serviceH1{
+  color: #12273D;
+  margin-top: -3.5rem;
+  font-size: 2.8rem;
+  margin-left: 5px;
+}
+
+.serviceCardPack{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 5rem;
+}
+
+.cardIcon{
+  width: 2.4rem;
+  height: 2.4rem;
+  color: #12273D;
+}
+.serviceCard{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.serviceCard h1{
+  color: #12273D;
+}
+
+.serviceCard p{
+  color: #12273D;
+  max-width: 15rem;
+  text-align: center;
+}
+
+
+
+@media screen and (max-width: 420px) {
+  .serviceH1{
+    text-align: center;
+  }
+
+  .serviceCardPack{
+    flex-direction: column;
+  }
+  .serviceWrapper{
+    height: 120vh;
+  }
+}
