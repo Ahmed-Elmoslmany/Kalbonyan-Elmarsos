@@ -78,7 +78,7 @@
 ### Redux Cart(S19)
 
 - [Project-code](./Projects/12-redux-cart)
-- [Live Demo]()
+- [Live Demo](https://64be90af9fdbb10ab86db631--sunny-figolla-311e24.netlify.app/)
 
 ### Events App(S20, S21)
 
